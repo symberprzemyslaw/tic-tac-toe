@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+    background-color: salmon;
+    width: 500px;
+    height: 500px;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: aquamarine;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+}
